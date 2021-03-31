@@ -3,9 +3,8 @@
 # Deepfake detection using Deep Learning (ResNext and LSTM)
 
 ## 1. Introduction
-This projects aims in detection of video deepfakes using deep learning techniques like ResNext and LSTM. We have achived deepfake detection by using transfer learning where the pretrained ResNext CNN is used to obtain a feature vector, further the LSTM layer is trained using the features. For more details follow the [documentaion](https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/tree/master/Documentation).
+This projects aims in detection of video deepfakes using deep learning techniques like ResNext and LSTM. We have achived deepfake detection by using transfer learning where the pretrained ResNext CNN is used to obtain a feature vector, further the LSTM layer is trained using the features. 
 
-You can also watch [this Youtube video](https://www.youtube.com/watch?v=_q16aJTXVRE) to get a better intuition about the project
 
 ## 2. Directory Structure
 For ease of understanding the project is structured in below format
@@ -45,17 +44,5 @@ Deepfake_detection_using_deep_learning
 |model_90_acc_60_frames_final_data.pt | 6000| 60 |90.59097 |
 |model_91_acc_80_frames_final_data.pt | 6000 | 80 | 91.49818 |
 |model_93_acc_100_frames_final_data.pt| 6000 | 100 | 93.58794|
-
-## 6. Contributors
-   1. [Abhijit Jadhav](https://www.linkedin.com/in/abhijitjadhav1998/)
-   2. [Jay Patel](https://www.linkedin.com/in/jay-patel-396408155/)
-   3. [Hitendra Patil](https://www.linkedin.com/in/hitendra-patil-95852613a/)
-   4. [Abhishek Patange](https://www.linkedin.com/in/abhishek-patange-691406155/)
-   
-   ***If you need any help regarding the please contact us. We will be happy to help***
-
-## 7. License
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
